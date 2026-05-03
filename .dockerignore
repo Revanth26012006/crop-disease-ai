@@ -1,0 +1,16 @@
+# Ignore datasets only
+PlantVillage/
+yolo_dataset/
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Git
+.git
+
+# Optional (keep images if needed)
+# *.jpg
+# *.png
