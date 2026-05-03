@@ -94,7 +94,7 @@ with right:
     if analyze and uploaded_file:
         with st.spinner("Analyzing..."):
             res = requests.post(
-                "http://127.0.0.1:8000/predict",
+                "https://crop-disease-ai-7mwe.onrender.com/predict",
                 files={"file": uploaded_file.getvalue()}
             )
             st.session_state.result = res.json()
